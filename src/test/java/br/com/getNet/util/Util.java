@@ -65,7 +65,7 @@ public class Util {
     }
     
     public static void seAlgoDeuErrado(WebDriver driver, Exception e) {
-    	System.out.println("Algo deu errado" + e.getMessage());
+    	System.out.println("Algo deu errado " + e.getMessage());
 		Util.closeSite(driver);
 		fail("Foi lançado alguma exceção durante o teste!!!");
     }
