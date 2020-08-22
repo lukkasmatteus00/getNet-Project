@@ -2,3 +2,5 @@ Para executar os scripts via terminal :
   mvn test -Dcucumber.options="--tags @PequisarSuperget"
 Maiores informações no link : 
   https://www.toolsqa.com/selenium-cucumber-framework/run-cucumber-test-from-command-line-terminal/
+  
+  >> ATENTE-SE A VERSÃO DO NAVEGAOR, POIS A VERSÃO DO NAVEGADOR E DO DRIVER TEM QUE SER COMPATIVEL, O PROJETO FOI DESENVOLVIDO PARA RODAR NO CHROME.
