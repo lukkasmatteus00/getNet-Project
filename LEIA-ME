@@ -1,0 +1,2 @@
+Para executar os scripts via terminal : mvn test -Dcucumber.options="--tags @PequisaProjecao"
+Maiores informações no link : https://www.toolsqa.com/selenium-cucumber-framework/run-cucumber-test-from-command-line-terminal/
