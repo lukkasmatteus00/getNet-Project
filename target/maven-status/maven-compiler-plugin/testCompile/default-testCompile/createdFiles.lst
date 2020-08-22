@@ -1,6 +1,0 @@
-br\com\getNet\config\ConfigDriver.class
-br\com\getNet\util\Util.class
-br\com\getNet\runners\RunPesquisaGetNet.class
-br\com\getNet\page\ResultPage.class
-br\com\getNet\page\LandingPage.class
-br\com\getNet\steps\StepsRealizarPesquisa.class
