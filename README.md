@@ -6,11 +6,11 @@ Esse projeto foi realizado como parte de um processo seletivo para a empresa DBC
 
 Passos:
 
-- Acessar o site: https://site.getnet.com.br/
-- No campo de busca(LUPA), pesquisar por "superget"
-- No resultado da busca, clicar no link " como faço a portabilidade da
+1. Acessar o site: https://site.getnet.com.br/
+2. No campo de busca(LUPA), pesquisar por "superget"
+3. No resultado da busca, clicar no link " como faço a portabilidade da
 minha maquininha"
-- Verificar se a modal foi aberta com a mensagem “Como faço a
+4. Verificar se a modal foi aberta com a mensagem “Como faço a
 portabilidade da minha maquininha?"
 
 >> Observações solicitadas
@@ -22,7 +22,7 @@ design das classes, organização, manutenibilidade do código, orientação a
 objeto, arquitetura da automação, clean code, seletores utilizados para
 identificar os elementos web (xpath, css, id) e etc.
 
->> ATENÇÃO
+>ATENÇÃO
 
 Foi realizado a estrutura de automação de forma que buscasse todos os link da primeira pagina, pois não pude encontrar o link "como faço a portabilidade da
 minha maquininha" em nenhum das paginas de resultado, optei por inserir novos link no script de teste.
