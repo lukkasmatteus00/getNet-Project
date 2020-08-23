@@ -2,7 +2,7 @@
 
 Esse projeto foi realizado como parte de um processo seletivo para a empresa DBC Company.
 
->>DESAFIO AUTOMAÇÃO
+>DESAFIO AUTOMAÇÃO
 
 Passos:
 
@@ -13,7 +13,7 @@ minha maquininha"
 4. Verificar se a modal foi aberta com a mensagem “Como faço a
 portabilidade da minha maquininha?"
 
->> Observações solicitadas
+> Observações solicitadas
 
 Preferencialmente desenvolver com linguagem Java, com selenium, cucumber.
 
