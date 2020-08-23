@@ -6,11 +6,11 @@ Esse projeto foi realizado como parte de um processo seletivo para a empresa DBC
 
 Passos:
 
-1 - Acessar o site: https://site.getnet.com.br/
-2 - No campo de busca(LUPA), pesquisar por "superget"
-3 - No resultado da busca, clicar no link " como faço a portabilidade da
+- Acessar o site: https://site.getnet.com.br/
+- No campo de busca(LUPA), pesquisar por "superget"
+- No resultado da busca, clicar no link " como faço a portabilidade da
 minha maquininha"
-4 – Verificar se a modal foi aberta com a mensagem “Como faço a
+- Verificar se a modal foi aberta com a mensagem “Como faço a
 portabilidade da minha maquininha?"
 
 Preferencialmente desenvolver com linguagem Java, com selenium, cucumber.
