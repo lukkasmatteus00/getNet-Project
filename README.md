@@ -13,6 +13,8 @@ minha maquininha"
 - Verificar se a modal foi aberta com a mensagem “Como faço a
 portabilidade da minha maquininha?"
 
+>> Observações solicitadas
+
 Preferencialmente desenvolver com linguagem Java, com selenium, cucumber.
 
 Além da automação dos passos descritos acima, serão avaliados itens como
