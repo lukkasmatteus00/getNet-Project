@@ -31,8 +31,6 @@ minha maquininha" em nenhum das paginas de resultado, optei por inserir novos li
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Executar o teste](#executar-o-teste)
 - [Relatórios de testes](#relatórios-de-testes)
-- [Observações sobre o resultado dos testes](#observações-sobre-o-resultado-dos-testes)
-- [Jenkins](#jenkins)
 - [Considerações Finais](#considerações-finais)
 ---
 ## Tecnologias utilizadas
