@@ -10,6 +10,9 @@ public class LandingScreen extends DefaultScreen{
 	@FindBy(xpath = "//div[@class='c-brand']//a//img")
 	public WebElement logo;
 	
+	@FindBy(xpath = "//a[contains(text(),'www.contatoseguro.com.br')]")
+	public WebElement footer;
+	
 	@FindBy(xpath = "//input[@class='c-search-box__input'][@id='global-search-input']")
 	public WebElement inputCampoBuscar;
 	
