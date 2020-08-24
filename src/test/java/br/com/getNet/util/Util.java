@@ -51,7 +51,7 @@ public class Util {
     public static WebElement encontrarElementoPorCSSSelector(WebDriver driver, String css){
         return driver.findElement(By.cssSelector(css));
     }
-    
+   
     public static void seAlgoDeuErrado(Exception e) {
     	System.out.println("Algo deu errado" + e.getMessage());
 		ConfigDriver.finalizarDriver();
