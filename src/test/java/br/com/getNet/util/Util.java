@@ -12,6 +12,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import br.com.getNet.config.ConfigDriver;
+
 /**
  Tem como objetivo criar metodos que será que auxiliaram toda a estrutura do projeto
  **/
@@ -43,30 +45,16 @@ public class Util {
     }
 
     public static WebElement encontrarElementoPorXPath(WebDriver driver, String xpath){
-        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         return driver.findElement(By.xpath(xpath));
     }
     
-    public static WebElement encontrarElementoPorID(WebDriver driver, String id){
-        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-        return driver.findElement(By.id(id));
-    }
     public static WebElement encontrarElementoPorCSSSelector(WebDriver driver, String css){
-        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         return driver.findElement(By.cssSelector(css));
     }
-    
-    public static void openSite(WebDriver driver, String URL) {
-        driver.get(URL);
-    }
-
-    public static void closeSite(WebDriver driver) {
-        driver.quit();
-    }
-    
-    public static void seAlgoDeuErrado(WebDriver driver, Exception e) {
-    	System.out.println("Algo deu errado " + e.getMessage());
-		Util.closeSite(driver);
+   
+    public static void seAlgoDeuErrado(Exception e) {
+    	System.out.println("Algo deu errado" + e.getMessage());
+		ConfigDriver.finalizarDriver();
 		fail("Foi lançado alguma exceção durante o teste!!!");
     }
 }
