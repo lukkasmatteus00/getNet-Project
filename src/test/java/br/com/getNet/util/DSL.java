@@ -20,7 +20,7 @@ public class DSL {
 
 	public DSL() {
 		this.driver = configurarDriver();
-		wait = new FluentWait<WebDriver>(configurarDriver()).withTimeout(Duration.ofSeconds(5))
+		wait = new FluentWait<WebDriver>(configurarDriver()).withTimeout(Duration.ofSeconds(10))
 				.pollingEvery(Duration.ofMillis(100)).ignoring(NoSuchElementException.class, WebDriverException.class);
 
 	}
