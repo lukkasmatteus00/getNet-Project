@@ -37,6 +37,8 @@ public class StepDefinitionRealizarPesquisa extends DSL {
 	public void acionarOCampoDeBusca() {
 		try {
 			aguardarElemento(landingScreen.logo);
+			aguardarElemento(landingScreen.footer);
+			aguardarElemento(landingScreen.acionarCampoBuscar);
 			clicarElemento(landingScreen.acionarCampoBuscar);
 		} catch (Exception e) {
 			Util.seAlgoDeuErrado(e);
